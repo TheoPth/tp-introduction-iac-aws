@@ -25,7 +25,9 @@ Supprimer le fichier et le bucket s3.
 Reprendre à l'étape 1 avec terraform
 
 # A savoir !
-Export les crédentials aws en variables d'env pour qu'ils n'apparaissent pas dans le code terraform
+Faites un export des crédentials AWS en variables d'environnement pour qu'ils n'apparaissent pas dans le code terraform
 Configuer le provider AWS pour que la région par défaut soit Paris.
+
+Modèle d'export à faire pour que terraform utiliser les crédentials AWS via les variables d'environnement : 
 export AWS_ACCESS_KEY_ID=<id>
 export AWS_SECRET_ACCESS_KEY=<secret>

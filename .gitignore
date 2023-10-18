@@ -1,0 +1,5 @@
+secrets.md
+*/*correction.tf
+*/*.terraform*
+*/*tfstate*
+2-bucket/index.html

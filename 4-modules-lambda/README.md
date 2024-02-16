@@ -8,7 +8,7 @@ Variables attendues : une nombre de mot random pour la taille de la phrase qui s
 - Output : résultat de l'invocation de la lambda
 
 ### module lambda
-- Crée un bucket s3 qui sert un fichier sur le web. Le nom du bucket est passé en variable
+- Crée une lambda qui renvoie la phrase passée en paramètre
 - Output : résultat de l'invocation de la lambda
 
 ### module Random sentence

@@ -3,8 +3,8 @@ variable "region" {
   default = "us-east-1"
 }
 
-variable "bucket_name" {
-  description = "Nom du bucket pour servir le fichier"
+variable "lambda_function_name" {
+  description = "Nom de la fonction lambda"
   type    = string
 }
 

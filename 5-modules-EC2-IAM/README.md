@@ -33,7 +33,7 @@ Output:
 
 Tester le module pour voir s'il fonctionne. Conseil : créer un dossier test dans le dossier du module qui utilise et implémente le module.
 
-### Module 2: Création d'une file SQS
+### Module 2: Création d'une file SNS
 Il est conseillé de créer les ressources manuellement dans un premier temps pour se familiariser avec les technos AWS.
 
 Créer un module Terraform pour déployer une file SNS et une subscription avec votre adresse email. Vous pourrez ainsi recevoir les notifications.

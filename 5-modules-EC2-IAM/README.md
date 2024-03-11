@@ -52,8 +52,25 @@ Variables :
 Vous assemblerez les deux modules terraforms que vous venez de créer dans le but d'être notifié lorsque qu'une nouvelle EC2 est déployée sur AWS.
 L'implémentation de la notification est libre.
 
+### Utilisation des modules pour plusieurs EC2 :
+Utilisez une liste qui répertorie vos EC2. Vous utiliserez un for_each pour déployer toutes vos EC2.
+Cette liste d'EC2 sera une variable et l'object EC2 sera défini ainsi:
+- nom de l'instance
+- type d'instance => optionnel
+- users data => optionnel
+- nom de l'instance role => optionnel
+Utilisez un fichier terraform.tfvars qui permet de charger automatiquement vos variables.
 
-### Evolutions possibles
+### Création d'une notification automatique
+Cette partie est ouverte, à vous de trouver le bon service et l'implémentation terraform.
+Mise en situation :
+Vous avez implémenté un module qui permet de déployer une EC2 et un module qui permet d'être notifié lorsqu'une EC2 est déployée. Vous partagez votre module avec le monde entier. 
+Un utilisateur de votre module est très content des fonctionnalités. Malheureusement après avoir laissé son alternant utiliser le module, celui-ci a déployé 1000 EC2 d'un coup sans faire exprès. 
+Il souhaite avoir une notification si 2 ou + ou de 2 EC2 sont déployées en moins de 30 secondes pour être sûr que cette erreur soit rapidement identifiée si elle se reproduit.
+
+=> Implétez cette fonctionnalité.
+
+### Evolutions possibles (pts BONUS)
 1. Variabiliser les User data de l'EC2 pour déployer ce que l'on veut à la volée.
 2. Exporter l'ip de l'EC2 pour recevoir l'addresse ip dans l'email.
 3. Variabiliser le déploiement de server web nginx ou httd selon la valeur passée en argument.

@@ -1,5 +1,3 @@
-
-
 https://github.com/Nayrode/TP-Terraform - Dorian TETU
 https://github.com/isalyne34/TP_intro_aws
 https://github.com/theotchlx/do-terraform-tp-aws

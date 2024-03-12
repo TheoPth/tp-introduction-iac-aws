@@ -21,6 +21,26 @@ L'implémentation du code tf est libre. Seule contrainte, il doit être fonction
 ### Module 1: Déploiement d'une EC2
 Créez un module Terraform pour déployer une instance EC2. Le module déploie une seule EC2. L'ami de l'EC2 sera récupérée via une data source terraform. L'ami doit etre la plus récente Amazon Linux disponible dans la région.
 
+Recuperez le snippet ici => 
+```tf
+data "aws_ami" "latest_amazon_linux" {
+  most_recent = true
+
+  owners = ["amazon"]
+
+  filter {
+    name   = "name"
+    values = ["amzn2-ami-hvm-*-x86_64-gp2"]
+  }
+
+  filter {
+    name   = "virtualization-type"
+    values = ["hvm"]
+  }
+}
+
+```
+
 Spécifications attendues du module.
 Variables :
   - nom de l'instance

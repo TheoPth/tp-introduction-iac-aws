@@ -1,0 +1,14 @@
+https://github.com/Nayrode/TP-Terraform
+https://github.com/isalyne34/TP_intro_aws
+https://github.com/theotchlx/do-terraform-tp-aws
+https://github.com/baptistebronsin/tp-terraform
+https://github.com/benoit-planche/tp_terraform
+https://github.com/lightsrh/AWS
+https://github.com/duratm/intro-aws-terraform
+https://github.com/Courtcircuits/terraform-do-101
+https://github.com/dorian-grst/tp-introduction-iac-aws-do3
+https://github.com/Giada-De-Martino/tps-giada-introduction-iac-aws
+https://github.com/je-suis-professionnelle/terraform
+https://github.com/Razano26/AWS
+https://github.com/NathaelB/tp-introduction-iac-aws
+https://github.com/hugoponthieu/tfec2
